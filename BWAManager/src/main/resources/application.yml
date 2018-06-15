@@ -1,0 +1,5 @@
+aws:
+  accessKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  secretKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+bwa:
+  load-balancer: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

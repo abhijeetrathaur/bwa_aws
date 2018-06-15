@@ -1,0 +1,8 @@
+worker:
+  load-balancer: xxxxxxxxxxxxxxxxxxxxxx
+  home-directory: /home/ec2-user
+  
+##### Server Config #####
+
+server:
+  port: 8081
