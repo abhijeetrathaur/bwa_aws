@@ -8,6 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.springframework.stereotype.Component;
 
 import com.bwa.worker.dto.BWATask;
+import com.bwa.worker.dto.SAMTask;
 import com.bwa.worker.dto.TaskStatusEnum;
 
 /**
@@ -15,8 +16,10 @@ import com.bwa.worker.dto.TaskStatusEnum;
  */
 @Component
 public class WorkerStatus {
-
+	
 	private final Map<String, BWATask> bwaTaskMap = new ConcurrentHashMap<>();
+
+	private final Map<String, SAMTask> samTaskMap = new ConcurrentHashMap<>();
 	
 	/**
 	 * Update worker task.
@@ -25,6 +28,10 @@ public class WorkerStatus {
 	 */
 	public void updateWorkerTask(BWATask task) {
 		bwaTaskMap.put(task.getTaskName(), task);
+	}
+	
+	public void updateWorkerTask(SAMTask task) {
+		samTaskMap.put(task.getTaskName(), task);
 	}
 	
 	/**
@@ -37,6 +44,10 @@ public class WorkerStatus {
 		return bwaTaskMap.get(taskName);
 	}
 	
+	public SAMTask getSAMTask(String taskName) {
+		return samTaskMap.get(taskName);
+	}
+	
 	public boolean isWorkerAvailable() {
 		int count = 0;
 		Set<Entry<String, BWATask>> taskMapEntrySet = bwaTaskMap.entrySet();
@@ -44,6 +55,16 @@ public class WorkerStatus {
 			BWATask task = entry.getValue();
 			if(task.getStatus().compareTo(TaskStatusEnum.STARTED) == 0) {
 				count ++;
+				break;
+			}
+		}
+		
+		Set<Entry<String, SAMTask>> samTaskMapEntrySet = samTaskMap.entrySet();
+		for (Entry<String, SAMTask> entry : samTaskMapEntrySet) {
+			SAMTask task = entry.getValue();
+			if(task.getStatus().compareTo(TaskStatusEnum.STARTED) == 0) {
+				count ++;
+				break;
 			}
 		}
 		return count == 0 ? true : false;

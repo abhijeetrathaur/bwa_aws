@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.bwa.worker.dto.BWATask;
 import com.bwa.worker.dto.BWAWorker;
+import com.bwa.worker.dto.SAMTask;
 import com.bwa.worker.executor.CommandExecutor;
 import com.bwa.worker.service.HealthCheckService;
 import com.bwa.worker.service.WorkerService;
@@ -39,7 +40,7 @@ public class WorkerController {
 		return healthCheckService.getHealthCheck();
 	}
 	
-	@GetMapping(value = "/status/{taskName}")
+	@GetMapping(value = "/status/bwa/{taskName}")
 	BWATask taskStatus(@PathVariable("taskName") String taskName) {
 		return status.getBWATask(taskName);
 	}
@@ -49,8 +50,13 @@ public class WorkerController {
 		executor.executeCommand(command);
 	}
 	
-	@PostMapping(path = "/execute" , consumes= {MediaType.APPLICATION_JSON_VALUE})
-	BWATask execute(@RequestBody BWATask task) {
+	@PostMapping(path = "/execute/bwa" , consumes= {MediaType.APPLICATION_JSON_VALUE})
+	BWATask executeBWA(@RequestBody BWATask task) {
+		return worker.execute(task);
+	}
+	
+	@PostMapping(path = "/execute/sam" , consumes= {MediaType.APPLICATION_JSON_VALUE})
+	SAMTask executeSAM(@RequestBody SAMTask task) {
 		return worker.execute(task);
 	}
 }
