@@ -32,7 +32,8 @@ public class BWAWorkerTask implements Runnable{
 			executeCommand(exportVariable);
 			
 			String fileLocation = task.getFileLocation();
-			String downloadCommand = command("wget  -O {0} {1}", task.getTaskName(), fileLocation);
+			//String downloadCommand = command("wget  -O {0} {1}", task.getTaskName(), fileLocation);
+			String downloadCommand = command("curl {1} > {0}", task.getTaskName(), fileLocation);
 			executeCommand(downloadCommand);
 			
 			String access = command("sudo chmod 0777 {0}", task.getTaskName());
