@@ -41,10 +41,10 @@ public class SAMWorkerTask implements Runnable {
 			}
 			
 			String fileNames = files.stream().collect(Collectors.joining(" "));
-			String samGenerationCommand = command("bwa sampe ./bwa/hg19bwaidx {0} > {1}", fileNames, task.getTaskName() + ".sam");
+			String samGenerationCommand = command("bwa sampe ./bwa/hg19bwaidx {0} > {1}", fileNames, task.getOutputFileName());
 			executeCommand(samGenerationCommand);
 			
-			String copySam = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0}.sam ec2-user@{1}:~", task.getTaskName(), task.getRequestorIp());
+			String copySam = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0} ec2-user@{1}:~", task.getOutputFileName(), task.getRequestorIp());
 			executeCommand(copySam);
 
 			task.setStatus(TaskStatusEnum.COMPLETED);

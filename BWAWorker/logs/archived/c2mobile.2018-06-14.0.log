@@ -1,0 +1,50 @@
+2018-06-14 17:47:38 INFO  com.bwa.worker.WorkerApplication - Starting WorkerApplication on XIPL9191 with PID 10596 (D:\gaurav\eclipse-workspace\BWAWorker\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAWorker)
+2018-06-14 17:47:38 INFO  com.bwa.worker.WorkerApplication - No active profile set, falling back to default profiles: default
+2018-06-14 17:47:38 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@35a9782c: startup date [Thu Jun 14 17:47:38 IST 2018]; root of context hierarchy
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-06-14 17:47:40 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-06-14 17:47:40 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-14 17:47:40 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-14 17:47:40 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-06-14 17:47:40 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-14 17:47:40 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1982 ms
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-14 17:47:40 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-14 17:47:40 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@35a9782c: startup date [Thu Jun 14 17:47:38 IST 2018]; root of context hierarchy
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/worker/execute],methods=[POST],consumes=[application/json]}" onto com.bwa.worker.dto.BWATask com.bwa.worker.controller.WorkerController.execute(com.bwa.worker.dto.BWATask)
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/worker/status/{taskName}],methods=[GET]}" onto com.bwa.worker.dto.BWATask com.bwa.worker.controller.WorkerController.taskStatus(java.lang.String)
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/worker/healthcheck],methods=[GET]}" onto com.bwa.worker.dto.BWAWorker com.bwa.worker.controller.WorkerController.healthCheck()
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/worker/execute/{command}],methods=[GET]}" onto void com.bwa.worker.controller.WorkerController.commandRunner(java.lang.String)
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 17:47:41 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 17:47:41 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-06-14 17:47:41 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-06-14 17:47:41 INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-06-14 17:47:41 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-06-14 17:47:41 INFO  com.bwa.worker.WorkerApplication - Started WorkerApplication in 7.492 seconds (JVM running for 8.788)
+2018-06-14 17:48:45 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-14 17:48:45 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-14 17:48:45 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+2018-06-14 17:51:05 INFO  com.bwa.worker.executor.CommandExecutor - Executing command wget  -O ERR034509_1.filt.fastq.g http://www.pdf995.com/samples/pdf.pdf
+2018-06-14 17:51:05 INFO  com.bwa.worker.executor.CommandExecutor - Command execution failed {}
+java.io.IOException: Cannot run program "sh" (in directory "\home\ec2-user"): CreateProcess error=267, The directory name is invalid
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.bwa.worker.executor.CommandExecutor.executeCommand(CommandExecutor.java:30)
+	at com.bwa.worker.service.WorkerTask.executeCommand(WorkerTask.java:53)
+	at com.bwa.worker.service.WorkerTask.run(WorkerTask.java:32)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: CreateProcess error=267, The directory name is invalid
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 common frames omitted
+2018-06-14 17:51:07 ERROR com.bwa.worker.service.WorkerTask - Task failed ERR034509_1.filt.fastq.g
+2018-06-14 18:03:33 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-06-14 18:03:33 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@35a9782c: startup date [Thu Jun 14 17:47:38 IST 2018]; root of context hierarchy

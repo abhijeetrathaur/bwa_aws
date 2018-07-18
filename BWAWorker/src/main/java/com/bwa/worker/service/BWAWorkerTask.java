@@ -32,20 +32,21 @@ public class BWAWorkerTask implements Runnable{
 			executeCommand(exportVariable);
 			
 			String fileLocation = task.getFileLocation();
-			//String downloadCommand = command("wget  -O {0} {1}", task.getTaskName(), fileLocation);
-			String downloadCommand = command("curl {1} > {0}", task.getTaskName(), fileLocation);
+			String downloadCommand = command("sudo curl {1} > {0}", task.getTaskName(), fileLocation);
 			executeCommand(downloadCommand);
+			
+			Thread.sleep(10000);
 			
 			String access = command("sudo chmod 0777 {0}", task.getTaskName());
 			executeCommand(access);
 			
-			String alignmentCommand = command("bwa aln -t 4 ./bwa/hg19bwaidx {0} > {1}.bwa", task.getTaskName(), task.getTaskName());
+			String alignmentCommand = command("bwa aln -t 4 ./bwa/hg19bwaidx {0} > {1}", task.getTaskName(), task.getOutputFileName());
 			executeCommand(alignmentCommand);
 			
-			String copyOriginal = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0} ec2-user@{1}:~", task.getTaskName(), task.getRequestorIp());
+			String copyOriginal = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0} ec2-user@{1}:~", task.getInputFileName(), task.getRequestorIp());
 			executeCommand(copyOriginal);
 			
-			String copyBWA = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0}.bwa ec2-user@{1}:~", task.getTaskName(), task.getRequestorIp());
+			String copyBWA = command("scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i pem.key {0} ec2-user@{1}:~", task.getOutputFileName(), task.getRequestorIp());
 			executeCommand(copyBWA);
 			
 			task.setStatus(TaskStatusEnum.COMPLETED);

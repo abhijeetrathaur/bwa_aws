@@ -24,6 +24,8 @@ public class WorkerServiceImpl implements WorkerService {
 	public BWATask execute(BWATask task) {
 		if(workerStatus.isWorkerAvailable()) {
 			task.setStatus(TaskStatusEnum.STARTED);
+			task.setInputFileName(task.getTaskName());
+			task.setOutputFileName(task.getTaskName() + ".bwa");
 			workerStatus.updateWorkerTask(task);
 			new Thread(new BWAWorkerTask(workerStatus, task, executor)).start();
 		} else {
@@ -36,6 +38,8 @@ public class WorkerServiceImpl implements WorkerService {
 	public SAMTask execute(SAMTask task) {
 		if(workerStatus.isWorkerAvailable()) {
 			task.setStatus(TaskStatusEnum.STARTED);
+			task.setInputFileName(task.getTaskName());
+			task.setOutputFileName(task.getTaskName() + ".sam");
 			workerStatus.updateWorkerTask(task);
 			new Thread(new SAMWorkerTask(workerStatus, task, executor)).start();
 		} else {

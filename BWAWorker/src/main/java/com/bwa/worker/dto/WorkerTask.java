@@ -1,7 +1,7 @@
 package com.bwa.worker.dto;
 
 /**
- * The Class BWATask.
+ * The Class WorkerTask.
  */
 public class WorkerTask {
 
@@ -9,6 +9,8 @@ public class WorkerTask {
 	private String workerIp;
 	private TaskStatusEnum status;
 	private String requestorIp;
+	private String inputFileName;
+	private String outputFileName;
 
 	public String getTaskName() {
 		return taskName;
@@ -40,5 +42,21 @@ public class WorkerTask {
 	
 	public void setRequestorIp(String requestorIp) {
 		this.requestorIp = requestorIp;
+	}
+	
+	public String getInputFileName() {
+		return inputFileName;
+	}
+	
+	public void setInputFileName(String inputFileName) {
+		this.inputFileName = inputFileName;
+	}
+	
+	public String getOutputFileName() {
+		return outputFileName;
+	}
+	
+	public void setOutputFileName(String outputFileName) {
+		this.outputFileName = outputFileName;
 	}
 }
