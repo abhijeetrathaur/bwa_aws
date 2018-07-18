@@ -1,0 +1,272 @@
+2018-07-13 17:13:44 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 3932 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:13:44 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:13:44 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ae5aa72: startup date [Fri Jul 13 17:13:44 IST 2018]; root of context hierarchy
+2018-07-13 17:13:45 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:13:45 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:13:45 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:13:45 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:13:45 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:13:45 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:13:45 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1487 ms
+2018-07-13 17:13:46 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:13:46 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:13:46 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:13:46 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:13:46 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:13:46 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:13:46 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:14:49 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 13264 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:14:49 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:14:50 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@222545dc: startup date [Fri Jul 13 17:14:50 IST 2018]; root of context hierarchy
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:14:51 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:14:51 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:14:51 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:14:51 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:14:51 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:14:51 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1415 ms
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:14:51 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:14:51 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:14:51 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:15:20 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 8896 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:15:20 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:15:20 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a6c1270: startup date [Fri Jul 13 17:15:20 IST 2018]; root of context hierarchy
+2018-07-13 17:15:22 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:15:22 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:15:22 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:15:22 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:15:22 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:15:22 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:15:22 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1861 ms
+2018-07-13 17:15:23 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:15:23 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:15:23 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:15:23 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:15:23 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:15:23 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:15:23 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:17:26 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 10324 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:17:26 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:17:26 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a362b6b: startup date [Fri Jul 13 17:17:26 IST 2018]; root of context hierarchy
+2018-07-13 17:17:28 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:17:28 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:17:28 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:17:28 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:17:28 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:17:28 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:17:28 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1837 ms
+2018-07-13 17:17:29 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:17:29 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:17:29 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:17:29 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:17:29 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:17:29 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:17:29 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:18:56 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 11448 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:18:56 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:18:56 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@18a136ac: startup date [Fri Jul 13 17:18:56 IST 2018]; root of context hierarchy
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:18:58 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:18:58 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:18:58 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:18:58 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:18:58 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:18:58 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1740 ms
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:18:58 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:18:58 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:18:58 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:20:51 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 13808 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:20:51 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:20:51 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a6c1270: startup date [Fri Jul 13 17:20:51 IST 2018]; root of context hierarchy
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:20:54 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:20:54 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:20:54 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:20:54 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:20:54 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:20:54 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2629 ms
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:20:54 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:20:54 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:20:54 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:23:25 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 3964 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:23:25 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:23:35 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bb3058: startup date [Fri Jul 13 17:23:35 IST 2018]; root of context hierarchy
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:23:37 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:23:37 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:23:37 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:23:37 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:23:37 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:23:37 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1742 ms
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:23:37 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:23:37 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'AWSServiceImpl' defined in file [D:\gaurav\eclipse-workspace\BWAManager\target\classes\com\bwa\manager\aws\AWSServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bwa.manager.aws.AWSServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2018-07-13 17:23:37 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-07-13 17:29:18 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 10720 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:29:18 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:29:18 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21337f7b: startup date [Fri Jul 13 17:29:18 IST 2018]; root of context hierarchy
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:29:20 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:29:20 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:29:20 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:29:20 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:29:20 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:29:20 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1719 ms
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:29:20 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21337f7b: startup date [Fri Jul 13 17:29:18 IST 2018]; root of context hierarchy
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/v1/bwa/start],methods=[GET]}" onto java.lang.String com.bwa.manager.controller.BWAController.start(java.lang.String)
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/v1/healthcheck],methods=[GET]}" onto java.lang.String com.bwa.manager.controller.BWAController.healthCheck()
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:29:21 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:29:22 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-13 17:29:22 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:29:22 INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-07-13 17:29:22 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-13 17:29:22 INFO  com.bwa.manager.BWAManagerApplication - Started BWAManagerApplication in 4.009 seconds (JVM running for 5.258)
+2018-07-13 17:29:32 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-07-13 17:29:32 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21337f7b: startup date [Fri Jul 13 17:29:18 IST 2018]; root of context hierarchy
+2018-07-13 17:40:09 INFO  com.bwa.manager.BWAManagerApplication - Starting BWAManagerApplication on XIPL9191 with PID 14072 (D:\gaurav\eclipse-workspace\BWAManager\target\classes started by xpanxion in D:\gaurav\eclipse-workspace\BWAManager)
+2018-07-13 17:40:09 INFO  com.bwa.manager.BWAManagerApplication - No active profile set, falling back to default profiles: default
+2018-07-13 17:40:09 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@142269f2: startup date [Fri Jul 13 17:40:09 IST 2018]; root of context hierarchy
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-13 17:40:11 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:40:11 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-07-13 17:40:11 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-13 17:40:11 INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Softs\maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\xpanxion\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\xpanxion\AppData\Roaming\npm;D:\gaurav\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-07-13 17:40:11 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-07-13 17:40:11 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1709 ms
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-13 17:40:11 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-13 17:40:11 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@142269f2: startup date [Fri Jul 13 17:40:09 IST 2018]; root of context hierarchy
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/v1/bwa/start],methods=[GET]}" onto java.lang.String com.bwa.manager.controller.BWAController.start(java.lang.String)
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/api/v1/healthcheck],methods=[GET]}" onto java.lang.String com.bwa.manager.controller.BWAController.healthCheck()
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:40:12 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-13 17:40:12 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-13 17:40:12 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-13 17:40:12 INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-07-13 17:40:12 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-13 17:40:12 INFO  com.bwa.manager.BWAManagerApplication - Started BWAManagerApplication in 4.121 seconds (JVM running for 5.34)
+2018-07-13 17:55:14 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-13 17:55:14 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-13 17:55:15 INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2018-07-13 17:55:38 INFO  com.bwa.manager.aws.AWSServiceImpl - Creating auto scaling group : BWAAutoScaleGroup with Size : 2
+2018-07-13 17:55:41 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.amazonaws.services.autoscaling.model.AlreadyExistsException: AutoScalingGroup by this name already exists - A group with the name BWAAutoScaleGroup already exists (Service: AmazonAutoScaling; Status Code: 400; Error Code: AlreadyExists; Request ID: dad49a7c-8697-11e8-a21d-059dd5288bf1)] with root cause
+com.amazonaws.services.autoscaling.model.AlreadyExistsException: AutoScalingGroup by this name already exists - A group with the name BWAAutoScaleGroup already exists (Service: AmazonAutoScaling; Status Code: 400; Error Code: AlreadyExists; Request ID: dad49a7c-8697-11e8-a21d-059dd5288bf1)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1632)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1304)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1058)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:743)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:717)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
+	at com.amazonaws.services.autoscaling.AmazonAutoScalingClient.doInvoke(AmazonAutoScalingClient.java:3572)
+	at com.amazonaws.services.autoscaling.AmazonAutoScalingClient.invoke(AmazonAutoScalingClient.java:3548)
+	at com.amazonaws.services.autoscaling.AmazonAutoScalingClient.executeCreateAutoScalingGroup(AmazonAutoScalingClient.java:623)
+	at com.amazonaws.services.autoscaling.AmazonAutoScalingClient.createAutoScalingGroup(AmazonAutoScalingClient.java:598)
+	at com.bwa.manager.aws.AWSServiceImpl.createWorkerGroup(AWSServiceImpl.java:43)
+	at com.bwa.manager.service.BWAManagerImpl.start(BWAManagerImpl.java:43)
+	at com.bwa.manager.controller.BWAController.start(BWAController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-13 17:56:22 INFO  com.bwa.manager.service.BWATaskExecutor - Inside BWA Task Executor
+2018-07-13 17:56:22 INFO  com.bwa.manager.service.BWATaskExecutor - Trying to execute BWA Task sml.22.fastq 
+2018-07-13 17:56:23 INFO  com.bwa.manager.service.BWACommunicator - Got BWA Worker ip-172-31-25-107 
+2018-07-13 17:56:25 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:56:56 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:57:27 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:57:58 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:58:28 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:58:59 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 17:59:30 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:00:01 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:00:32 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:01:03 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:01:33 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:02:04 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:02:35 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:03:06 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:03:37 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec
+2018-07-13 18:04:07 INFO  com.bwa.manager.service.BWACommunicator - Workers are not available waiting for 30sec

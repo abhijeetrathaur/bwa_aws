@@ -33,4 +33,4 @@ public class BWAController {
 		return manager.start(ftpLocation);
 	}
 
-};
+}

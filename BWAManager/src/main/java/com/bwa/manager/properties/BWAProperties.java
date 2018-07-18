@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "aws")
+@ConfigurationProperties(prefix = "bwa")
 public class BWAProperties {
 
 	private String loadBalancer;
